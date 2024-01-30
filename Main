@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>FantasyFootball</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="FantasyFootball.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2>Welcome to  my Fantasy Football application!</h2>
+        <button class="button">Reset</button>
+        <br>
+        <br>
+
+    </header>
+
+    <main>
+        <div class="selections">
+            <div class="line">
+                <div class="pos">
+                    <h1>Player info</h1>
+                    <h3>Position</h3>
+                    <select>
+                        <option>QuarterBack</option>
+                        <option>RunningBack</option>
+                        <option>Tight End</option>
+                        <option>Wide Reciever</option>
+                        <option>Full Back</option>
+                        <option>Half Back</option>
+                        <option>Kicker</option>
+                    </select>
+                </div>
+
+                <div class="proTeam">
+                    <h3>Would you like to select a Specific NFL team?</h3>
+                    <select>
+                        <option>49ers</option>
+                        <option>Bears</option>
+                        <option>Bengals</option>
+                        <option>Bills</option>
+                        <option>Broncos</option>
+                        <option>Cardinals</option>
+                        <option>Chargers</option>
+                        <option>Cheifs</option>
+                        <option>Colts</option>
+                        <option>Commanders</option>
+                        <option>Cowboys</option>
+                        <option>Doplhins</option>
+                        <option>Eagles</option>
+                        <option>Falcons</option>
+                        <option>Giants</option>
+                        <option>Jaguars</option>
+                        <option>Jets</option>
+                        <option>Lions</option>
+                        <option>Packers</option>
+                        <option>Panthers</option>
+                        <option>Patriots</option>
+                        <option>Raiders</option>
+                        <option>Rams</option>
+                        <option>Ravens</option>
+                        <option>Saints</option>
+                        <option>Seahawks</option>
+                        <option>Steelers</option>
+                        <option>Texans</option>
+                        <option>Titans</option>
+                        <option>Vikings</option>
+                    </select>
+                </div>
+                
+
+            </div>
+            <br>
+            <div class="college">
+                <h1>College Data</h1>
+                
+                <div class="heisman">
+                    <form>
+                        <h3>Heisman Winner?  </h3>
+                        <input type="checkbox" name="heisman" value="yes">
+                    </form>
+                </div>
+        
+                <div class="pwr5">
+                    <form>
+                        <h3>Power 5 Confrence?  </h3>
+                        <input type="checkbox" name="pwr5" value="yes">
+                    </form>
+                </div>
+    
+                <div class="ntlChamp">
+                    <h3>College National Champion?  </h3>
+                    <input type="checkbox" name="ntlChamp" value="yes">
+                </div>
+
+                <div class="fcs">
+                    <h3>FCS?</h3>
+                    <input type="checkbox" name="fcs" value="yes"> 
+                </div>
+            </div>
+
+           
+            <br>
+            
+           <div class="pro">
+            <h1>NFL Data</h1>
+                <div class="MVP">
+                    <h3>MVP</h3>
+                    <input type="checkbox" name="mvp" value="yes">
+                </div>
+
+                <div class="winSea">
+                    <h3>Previous Winning Season</h3>
+                    <input type="checkbox" name="winSea" value="yes">
+                </div>
+                
+                <div class="superBowl">
+                    <h3>SuperBowl Champ</h3>
+                    <input type="checkbox" name="superBowl" value="yes">
+                </div>
+
+                <div class="rookie">
+                    <h3>Rookie</h3>
+                    <input type="checkbox" name="rookie" value="yes">
+                </div>
+
+                <div class="ProBowl">
+                    <h3>Pro Bowl</h3>
+                    <input type="checkbox" name="ProBowl" value="yes">
+                </div>
+           </div>
+           <br>
+           <div class="stats">
+                <h1>Last Seasons Stats</h1>
+                <h3>Yards</h3>
+                <select>
+                    <option> Yards <= 1000</option>
+                    <option> yards > 1000</option>
+                </select>
+                <h3>Minnimum Number of TouchDowns Last Season</h3>
+                <input type="text" id="td" name="td">
+
+                <h3>Extra points(Kicker)</h3>
+                <input type="text" id="extPts" name="extPts">
+           </div>
+
+           <button class="button">Update</button>
+
+           
+
+        </div>
+
+        <div class="topPicks">
+            <h1>Your Top Picks</h1>
+        </div>
+    
+        </div>
+
+        <div class="results">
+            <output></output>
+        </div>
+
+        
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>

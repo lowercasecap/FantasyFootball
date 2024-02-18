@@ -1,5 +1,3 @@
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=lowercasecap&count_private=true&theme=tokyonight&showicons=true)]()
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=lowercasecap&langs_count=3&theme=tokyonight)]()
 Fantasy College Football App
 Welcome to Fantasy College Football, where we bring a unique twist to traditional fantasy football by incorporating players' college data into your fantasy drafting and management experience. Make more informed decisions by exploring players' college statistics, achievements, and more.
 
